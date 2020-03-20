@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  mychart:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-03-20T11:21:44.429251103+08:00
+    description: A Helm chart for Kubernetes
+    digest: 08abeb3542e8a9ab90df776d3a646199da8be0ebfc5198ef032190938d49e30a
+    name: mychart
+    urls:
+    - https://baochunliubj.github.com/helm-example/mychart-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - apiVersion: v1
     appVersion: 5.7.28
-    created: 2020-03-20T10:10:22.922523507+08:00
+    created: 2020-03-20T11:21:44.430356343+08:00
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 4f549ea6ce633adf94a458c94f3436f75789ff6d5e84e56eba95e62752d87fd2
@@ -24,6 +34,6 @@ entries:
     - https://github.com/kubernetes/charts
     - https://github.com/docker-library/mysql
     urls:
-    - https://github.com/BaochunLiuBJ/helm-example/mysql-1.0.0.tgz
+    - https://baochunliubj.github.com/helm-example/mysql-1.0.0.tgz
     version: 1.0.0
-generated: 2020-03-20T10:10:22.919434811+08:00
+generated: 2020-03-20T11:21:44.428058897+08:00
